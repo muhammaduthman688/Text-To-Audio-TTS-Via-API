@@ -36,6 +36,20 @@ class MainActivity : AppCompatActivity() {
                     requestBody
                 ) {}
             }
+            binding.btnVoice1.setOnClickListener {
+                Constants.voice="Enter Voice Code 1 which you want to select"
+                //Like this
+                Constants.voice="Willem (Male, ZA)"
+            }
+            binding.btnVoice2.setOnClickListener {
+                Constants.voice="Enter Voice Code 2 which you want to select"
+            }
+            binding.btnVoice3.setOnClickListener {
+                Constants.voice="Enter Voice Code 3 which you want to select"
+            }
+            binding.btnVoice4.setOnClickListener {
+                Constants.voice="Enter Voice Code 4 which you want to select"
+            }
 
         }
     }
